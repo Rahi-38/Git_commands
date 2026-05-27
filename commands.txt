@@ -31,3 +31,6 @@ git add commands.txt
 git commit -m "Updated git commands file"
 🟢 STEP 5: Push to GitHub
 git push
+if this gives error use below command
+
+git push --set-upstream origin main
