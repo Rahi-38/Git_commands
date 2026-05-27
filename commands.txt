@@ -14,3 +14,20 @@
 -- git push
 -- git pull
 -- git log
+
+--git rm -r git_commands   - remove folder command
+
+---You already have the file in the repo, so you just need to update → add → commit → push.
+
+🟢STEP 1: Go to your repo folder
+cd C:\Users\RahishaR\Documents\fresh\git_commands
+🟢 STEP 2: Check what changed
+git status
+You should see:
+modified: commands.txt
+🟢 STEP 3: Add the updated file
+git add commands.txt
+🟢 STEP 4: Commit the change
+git commit -m "Updated git commands file"
+🟢 STEP 5: Push to GitHub
+git push
